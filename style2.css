@@ -1,0 +1,109 @@
+/* CSS LOGIN.HTML */
+*{
+    overflow: hidden;
+}
+body.login{
+    background:url("./foto1/bg.jpg")no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 120vh;
+}
+
+.log_posisi{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+.bd_log{
+    background: transparent;
+    border: thin solid rgb(255, 253, 253);
+    border-radius: 15px;
+    box-shadow: 2px;
+    display: block;
+    width: 40vh;
+    height: 50vh;
+    backdrop-filter: blur(15px);
+}
+
+.sign{
+    margin-top: 5%;
+}
+
+.input{
+    margin-top: 10%;
+    margin-bottom: 2%;
+    margin-left: 9%;
+}
+
+.button{
+    margin-top: 10%;
+    margin-left: 9%;
+}
+
+.bt{
+    margin-bottom: 5%;
+}
+
+.bt a{
+    text-decoration: none;
+}
+
+.bt1 a{
+    text-decoration: none;
+}
+
+.bt1{
+    margin-top: 5%
+}
+
+.judul{
+    display: flex; 
+    font-size: 2em;
+    align-items: center;
+    text-align: center;
+    font-family: Follow;
+    margin-top: 2%
+}
+
+.j2{
+    padding-right: 0.5%;
+    padding-left: 3%;
+    color: rgb(248, 250, 252);
+}
+
+.j1{
+    background: rgb(0, 100, 250);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.bdlog{
+    
+}
+
+
+.new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 80vh;
+}
+
+.joinn:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.lupa:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+::placeholder{
+    color: white;
+}
