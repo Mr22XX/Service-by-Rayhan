@@ -28,13 +28,32 @@ Berdasarkan pengujian, waktu rata-rata untuk mengeksekusi seluruh kode (dari inp
 
 Berikut ringkasan dari setiap bagian penting dalam skrip Python:
 
-#### 1. **Inisialisasi API Key**
-```python
-client = openrouteservice.Client(key='API_KEY')
+ #### 1. **Inisialisasi API Key**
+      ```python
+      client = openrouteservice.Client(key='API_KEY')
+ #### 2. **Deklarasi Lokasi**
+      locations = { "Rektorat": [long, lat], ... }
+ #### 3. **Ambil Lokasi Dari User**
+      start_input = input("Input Lokasi Awal : ")
+      end_input = input("Input Lokasi Akhir : ")
+ #### 4. **Request Lokasi Alternatid dari ORS**
+      client.directions(coordinates=..., alternative_routes=...)
+ #### 5. **Visualisasi Peta dari Folium**
+      m = folium.Map(...)
+      folium.Marker(...)  # untuk semua lokasi
+      folium.GeoJson(...) # untuk setiap rute
+ #### 6. **Output**
+      print(f"Rute {i+1}:\n  - Jarak: ... \n  - Waktu: ...")
+
+
+
+
+
 
 
 
 ---
+
 
 ## 📌 Fitur
 
