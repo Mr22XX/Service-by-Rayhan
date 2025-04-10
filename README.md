@@ -57,7 +57,7 @@ Beberapa titik penting dalam graf:
 
 ## 🚀 Cara Menjalankan
 
-1. Pastikan sudah menginstal library yang dibutuhkan:
-
-```bash
-pip install openrouteservice folium
+1. **Clone Repository (jika dari GitHub)**  
+   ```bash
+   git clone https://github.com/username/nama-repo.git
+   cd nama-repo
