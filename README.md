@@ -61,3 +61,27 @@ Beberapa titik penting dalam graf:
    ```bash
    git clone https://github.com/username/nama-repo.git
    cd nama-repo
+
+   Install Library yang Dibutuhkan
+Pastikan Python 3.x sudah terinstal. Jalankan perintah berikut untuk menginstal dependensi:
+
+      pip install openrouteservice folium
+Dapatkan API Key dari OpenRouteService
+
+      Kunjungi: https://openrouteservice.org/sign-up/
+
+Daftar akun (gratis)
+
+Setelah login, masuk ke dashboard dan salin API Key milikmu
+
+Masukkan API Key ke dalam kode
+Buka file Python utama, lalu temukan dan ubah bagian berikut:
+
+      python
+      import openrouteservice
+
+# Ganti 'API_KEY_ANDA' dengan API key kamu sendiri
+      client = openrouteservice.Client(key='API_KEY_ANDA')
+Jalankan Program
+Jalankan file Python menggunakan terminal, Jupyter Notebook, atau Google Colab.
+
